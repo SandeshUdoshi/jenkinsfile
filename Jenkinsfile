@@ -27,7 +27,7 @@ pipeline {
             
             steps {
                 
-                   deploy adapters: [tomcat7(url: 'http://192.168.1.150:8080/', credentialsId: '3adce66e-bedd-441f-aeca-661ce6a11bbc')], war: 'target/*.war', contextPath: 'app'
+                   deploy adapters: [tomcat7(url: 'http://192.168.1.150:8080/', credentialsId: '3adce66e-bedd-441f-aeca-661ce6a11bbc')], war: 'target/*.war', contextPath: 'app007'
 
             }
         }        
